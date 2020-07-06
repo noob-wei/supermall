@@ -31,6 +31,6 @@
 	color: #FF8E97; 
 }
 #app{
-	padding-top: 40px;
+	padding-top: 2.5rem;
 }
 </style>
