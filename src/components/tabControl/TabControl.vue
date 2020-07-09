@@ -22,6 +22,7 @@ export default{
   methods: {
     itemClick(index){
       this.currentIndex = index
+      this.$emit('tabClick', index)
     }
   },
 }
@@ -34,6 +35,8 @@ export default{
   justify-content: space-around;
   font-size: 1rem;
   background-color: white;
+  z-index: 100000;
+
 
 }
 .tabcontrol-item{

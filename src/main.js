@@ -15,6 +15,11 @@ Vue.component(Header.name, Header);
 import './assets/header/header.css'
 import './assets/base/base.css'
 
+// 导入element-ui
+import Element from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(Element, { size: 'small', zIndex: 3000 });
+
 // 导入axios
 import axios from 'axios'
 Vue.prototype.$http = axios
@@ -23,6 +28,7 @@ Vue.prototype.$http = axios
 import swiper from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
 Vue.use(swiper)
+
 
 Vue.config.productionTip = false;
 

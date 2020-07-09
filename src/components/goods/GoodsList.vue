@@ -19,6 +19,9 @@ export default {
   },
   components:{
     goodslistitem
+  },
+  mounted(){
+    console.log(this.goods)
   }
 }
 </script>
